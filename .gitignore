@@ -1,0 +1,7 @@
+dados/
+*.csv
+*.db
+graficos/
+*.pbix
+__pycache__/
+.vscode/

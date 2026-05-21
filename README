@@ -1,0 +1,284 @@
+# 🛡️ Fraud Analytics Pipeline
+
+End-to-end fraud analytics project developed with Python, Pandas, SQLite, SQL and Power BI, focused on exploratory fraud analysis, behavioral pattern detection and data storytelling.
+
+This project simulates a real-world fraud analytics workflow, including:
+
+- Large-scale transaction analysis
+- Data cleaning and preprocessing
+- Feature engineering
+- Fraud behavior investigation
+- SQL analytics
+- Automated chart generation
+- Risk pattern identification
+- Behavioral fraud analytics
+- Interactive dashboard development
+- Temporal fraud analysis
+- Fraud heatmap visualization
+
+---
+
+# 📊 Power BI Dashboard
+
+Interactive Power BI dashboard built from the cleaned fraud transactions dataset exported by the Python analytical pipeline.
+
+Dashboard pages include:
+
+- Executive Overview
+- Merchant & Geographic Risk
+- Behavioral Analysis
+
+The dashboard provides:
+
+- Fraud KPIs
+- Temporal fraud analysis
+- Merchant risk monitoring
+- Behavioral fraud heatmaps
+- Fraud category analysis
+- Geographic fraud analysis
+- Interactive risk exploration
+
+---
+
+# 🚀 Technologies Used
+
+- Python
+- Pandas
+- SQLite
+- SQL
+- Power BI
+- Matplotlib
+- CSV
+- Data Analysis
+- Fraud Analytics
+- Behavioral Analytics
+- Data Visualization
+
+---
+
+# 📂 Project Structure
+
+```bash
+fraud-analytics-pipeline/
+│
+├── dashboard/
+│   └── Fraud_Analytics_Dashboard.pbix
+│
+├── dados/
+│
+├── graficos/
+│   ├── fraude_por_categoria.png
+│   ├── fraude_por_estado.png
+│   ├── fraude_por_hora.png
+│   ├── fraude_categoria_madrugada.png
+│   ├── top_merchant_fraude.png
+│   └── valor_medio_fraude.png
+│
+├── queries/
+│   ├── fraud_rate.sql
+│   ├── fraud_by_category.sql
+│   ├── fraud_by_hour.sql
+│   └── fraud_by_period.sql
+│
+├── fraud_analysis.py
+├── fraud_analytics.db
+├── README.md
+└── LICENSE
+```
+
+---
+
+# 📊 Features
+
+## ✔ Large Dataset Processing
+
+Processes nearly 2 million financial transactions using Pandas and SQLite.
+
+---
+
+## ✔ Data Cleaning
+
+- Removal of unnecessary columns
+- Datetime conversion
+- Data normalization
+- Feature preparation
+
+---
+
+## ✔ Feature Engineering
+
+Creates analytical features such as:
+
+- Transaction hour
+- Period of the day
+- Transaction classification
+- Fraud contextualization
+- Behavioral segmentation
+
+---
+
+## ✔ Fraud Analytics
+
+Performs exploratory fraud analysis including:
+
+- Fraud rate analysis
+- Fraud by category
+- Fraud by hour
+- Fraud by merchant
+- Fraud by state
+- Fraud during late-night periods
+- Average fraud transaction value
+- Behavioral fraud patterns
+
+---
+
+## ✔ SQL Analytics
+
+Uses external SQL queries for:
+
+- Aggregations
+- Fraud KPIs
+- Temporal analysis
+- Business metrics
+- Risk analysis
+
+---
+
+## ✔ Power BI Analytics
+
+Interactive dashboards built with:
+
+- Executive KPIs
+- Fraud trend analysis
+- Merchant risk investigation
+- Geographic risk analysis
+- Fraud heatmaps
+- Behavioral analysis
+- Dynamic filtering
+
+---
+
+## ✔ Data Visualization
+
+Automatically generates analytical charts using Matplotlib and Power BI.
+
+---
+
+# 📈 Main Insights
+
+## 🚨 Fraud Concentration During Night Hours
+
+Transactions performed between 22h and 03h presented the highest fraud rates.
+
+---
+
+## 💰 Fraudulent Transactions Have Higher Ticket Value
+
+Fraudulent operations presented average transaction values significantly higher than legitimate transactions.
+
+---
+
+## 🛒 Online Purchases Present Higher Fraud Rates
+
+Online categories such as:
+
+- shopping_net
+- misc_net
+
+showed the highest fraud incidence.
+
+---
+
+## 🏪 Merchant Risk Concentration
+
+Specific merchants presented considerably higher fraud rates, enabling risk concentration analysis.
+
+---
+
+## 🌙 Contextual Fraud Analysis
+
+Cross-analysis between category and time period identified different fraud behaviors during late-night hours.
+
+---
+
+## 🧠 Behavioral Fraud Heatmaps
+
+Behavioral heatmaps revealed fraud concentration patterns based on category and transaction time combinations.
+
+---
+
+# 📤 Generated Files
+
+The project automatically generates:
+
+```bash
+graficos/fraude_por_categoria.png
+graficos/fraude_por_estado.png
+graficos/fraude_por_hora.png
+graficos/fraude_categoria_madrugada.png
+graficos/top_merchant_fraude.png
+graficos/valor_medio_fraude.png
+dashboard/Fraud_Analytics_Dashboard.pbix
+```
+
+---
+
+# 🧠 Skills Demonstrated
+
+- Fraud Analytics
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- SQL Analytics
+- Feature Engineering
+- Data Storytelling
+- Data Visualization
+- Behavioral Analytics
+- Temporal Analysis
+- Risk Analysis
+- Power BI
+- Dashboard Development
+- Heatmap Analysis
+- SQLite Integration
+- Query Modularization
+- Analytical Pipelines
+
+---
+
+# ▶️ How to Run
+
+## Install dependencies
+
+```bash
+pip install pandas matplotlib
+```
+
+---
+
+## Run the project
+
+```bash
+py fraud_analysis.py
+```
+
+---
+
+# 📌 Future Improvements
+
+- Real-time fraud monitoring
+- Automated fraud insights generation
+- Dynamic dashboard refresh
+- Predictive fraud models
+- Machine Learning integration
+- Risk scoring models
+- Live database integration
+- Streaming fraud analytics
+- Automated anomaly detection
+- Executive alert systems
+
+---
+
+# 👨‍💻 Author
+
+Daniel Nascimento
+
+[LinkedIn](https://www.linkedin.com/in/daniel-nascimento-2729941a8/)
